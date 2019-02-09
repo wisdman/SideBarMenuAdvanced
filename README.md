@@ -1,6 +1,6 @@
 # Sidebar Menu Advanced
 
-Custom Sublime Text 3 SideBar context menu. Simple plugin with minimum useful functions.
+Custom [Sublime Text](https://www.sublimetext.com/) Side Bar context menu. Simple plugin with minimum useful functions.
 
 ### Features
 
