@@ -24,7 +24,6 @@ class SideBarCommand(sublime_plugin.WindowCommand):
   def retarget_view(source, destination):
     source = os.path.normcase(os.path.abspath(source))
     destination = os.path.normcase(os.path.abspath(destination))
-
     for window in sublime.windows():
       for view in window.views():
         path = os.path.abspath(view.file_name())
@@ -182,7 +181,7 @@ class SideBarMenuRenameCommand(SideBarCommand):
 
       os.rename(source, new)
 
-      if os.path.isfile(source):
+      if os.path.isfile(new):
         self.retarget_view(source, new)
       else:
         self.retarget_all_views(source, new)
@@ -265,7 +264,7 @@ class SideBarMenuMoveCommand(SideBarCommand):
 
       shutil.move(source, new)
 
-      if os.path.isfile(source):
+      if os.path.isfile(new):
         self.retarget_view(source, new)
       else:
         self.retarget_all_views(source, new)
