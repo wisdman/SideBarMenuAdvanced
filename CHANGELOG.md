@@ -2,7 +2,7 @@
 
 ## [0.1.2](https://github.com/wisdman/SideBarMenuAdvanced/releases/tag/v0.1.2) - 2019-03-09
 
-* Fix copid or moved files retarget bug
+* Fix copied or moved files retarget bug
 
 ## [0.1.1](https://github.com/wisdman/SideBarMenuAdvanced/releases/tag/v0.1.1) - 2019-02-10
 
